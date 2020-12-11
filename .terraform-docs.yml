@@ -1,0 +1,16 @@
+# Terraform docs configuration file
+formatter: markdown table
+header-from: doc.md
+sort:
+  enabled: true
+sections:
+  show-all: true
+settings:
+  color: true
+  escape: true
+  indent: 2
+  required: true
+  sensitive: true
+output-values:
+  enabled: false
+  from: ""
