@@ -1,6 +1,12 @@
 # terraform-aws-batch-container-properties
 
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/karvounis/terraform-aws-batch-container-properties?sort=semver) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/karvounis/terraform-aws-batch-container-properties?sort=semver&color=blue&logoColor=white&logo=terraform&style=flat-square)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?style=flat-square&logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+![GitHub Release Date](https://img.shields.io/github/last-commit/karvounis/terraform-aws-batch-container-properties?logo=github)
+![GitHub](https://img.shields.io/github/license/karvounis/terraform-aws-batch-container-properties?style=flat-square&logo=github)
+
+![Open Collective backers and sponsors](https://img.shields.io/opencollective/all/karvounis?color=%237FADF2&logo=open-collective&style=flat-square)
+![Liberapay patrons](https://img.shields.io/liberapay/patrons/karvounis?color=%23F6C915&logo=liberapay&style=flat-square)
 
 Terraform module that generates the container properties object to use in AWS Batch.
 
