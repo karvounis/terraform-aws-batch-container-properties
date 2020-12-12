@@ -1,7 +1,9 @@
 # terraform-aws-batch-container-properties
 
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/karvounis/terraform-aws-batch-container-properties?sort=semver&color=blue&logoColor=white&logo=terraform&style=flat-square)
+[![pre-commit](https://img.shields.io/badge/terraform-%23623CE4?style=flat-square&logo=terraform&logoColor=white)](https://www.terraform.io/)
+![pre-commit](https://img.shields.io/badge/aws-%23232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?style=flat-square&logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/karvounis/terraform-aws-batch-container-properties?sort=semver&color=blue&logoColor=white&logo=github&style=flat-square&label=latest)
 ![GitHub Release Date](https://img.shields.io/github/last-commit/karvounis/terraform-aws-batch-container-properties?logo=github)
 ![GitHub](https://img.shields.io/github/license/karvounis/terraform-aws-batch-container-properties?style=flat-square&logo=github)
 
