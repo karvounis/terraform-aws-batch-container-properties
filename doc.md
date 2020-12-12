@@ -5,9 +5,6 @@
 ![GitHub Release Date](https://img.shields.io/github/last-commit/karvounis/terraform-aws-batch-container-properties?logo=github)
 ![GitHub](https://img.shields.io/github/license/karvounis/terraform-aws-batch-container-properties?style=flat-square&logo=github)
 
-![Open Collective backers and sponsors](https://img.shields.io/opencollective/all/karvounis?color=%237FADF2&logo=open-collective&style=flat-square)
-![Liberapay patrons](https://img.shields.io/liberapay/patrons/karvounis?color=%23F6C915&logo=liberapay&style=flat-square)
-
 Terraform module that generates the container properties object to use in AWS Batch.
 
 ## AWS Documentation
