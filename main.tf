@@ -1,7 +1,21 @@
 locals {
+  env_vars_keys        = [for m in var.environment : lookup(m, "name")]
+  env_vars_values      = [for m in var.environment : lookup(m, "value")]
+  env_vars_as_map      = zipmap(local.env_vars_keys, local.env_vars_values)
+  sorted_env_vars_keys = sort(local.env_vars_keys)
+
+  sorted_environment_vars = [
+    for key in local.sorted_env_vars_keys :
+    {
+      name  = key
+      value = lookup(local.env_vars_as_map, key)
+    }
+  ]
+  final_environment_vars = length(local.sorted_environment_vars) > 0 ? local.sorted_environment_vars : null
+
   container_property = {
     command                      = var.command
-    environment                  = var.environment
+    environment                  = local.final_environment_vars
     executionRoleArn             = var.execution_role_arn
     fargatePlatformConfiguration = var.fargate_platform_configuration
     image                        = var.image
